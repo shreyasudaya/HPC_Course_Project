@@ -40,3 +40,17 @@
 	keywords = {Flow accumulation, Parallel algorithms, OpenMP, Multicore processors, Manycore architectures, GIS},
 	abstract = {The calculation of flow accumulation is one of the tasks in digital terrain analysis that is not easy to parallelize. The aim of this work was to develop new, faster ways to calculate flow accumulation and achieve shorter execution times than popular software tools for this purpose. We prepared six implementations of algorithms based on both top-down and bottom-up approaches and compared their performance using 118 different data sets (including 59 subcatchments and 59 full frames) of various sizes but the same area and resolution. Our results clearly show that the parallel top-down algorithm (without the use of OpenMP tasks) is the most suitable implementation for flow accumulation calculations of all we have tested. The mean and median execution times of this algorithm are the shortest in all cases studied. The implementation is characterized by high speedups. The execution times of the parallel top-down implementation are two orders of magnitude shorter compared to the Flow Accumulation tool from ArcGIS Desktop. This is important, considering the performance of popular GIS platforms, where it takes hours to perform the same kind of operations with the use of similar equipment.}
 }
+
+@article{CHO2020104774,
+	title = {A recursive algorithm for calculating the longest flow path and its iterative implementation},
+	journal = {Environmental Modelling & Software},
+	volume = {131},
+	pages = {104774},
+	year = {2020},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2020.104774},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815220305508},
+	author = {Huidae Cho},
+	keywords = {Longest flow path, Watershed, Hydrology, Open source, GIS, GRASS GIS},
+	abstract = {The longest flow path is widely used for studying hydrology. Traditionally, both or either of upstream and downstream flow length rasters are required to calculate the longest flow path. When processing multiple subwatersheds, this approach requires separate calculations of the downstream flow length raster for all the subwatersheds. However, raster computation involves a lot of disk input/output and can be slow. By defining the longest flow path recursively and introducing a branching strategy based on Hack's law, this study proposes a new longest flow path algorithm that computes as few rasters as possible to reduce computational time and improve efficiency. To avoid stack overflows by excessive recursion, its iterative counterpart algorithm was also proposed. The proposed algorithms were implemented as a GRASS GIS module. Benchmark experiments proved that the new module outperforms an existing tool for a commercial GIS.}
+}

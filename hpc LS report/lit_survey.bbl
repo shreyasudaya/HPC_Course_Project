@@ -15,4 +15,9 @@ B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
   longest flow paths in flow direction grids,'' {\em Environmental Modelling \&
   Software}, vol.~167, p.~105728, 2023.
 
+\bibitem{CHO2020104774}
+H.~Cho, ``A recursive algorithm for calculating the longest flow path and its
+  iterative implementation,'' {\em Environmental Modelling \& Software},
+  vol.~131, p.~104774, 2020.
+
 \end{thebibliography}

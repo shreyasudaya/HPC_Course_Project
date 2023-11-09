@@ -5,48 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "9246553"
-Warning--I didn't find a database entry for "7123563"
-Warning--I didn't find a database entry for "ashton2017debugging"
-You've used 3 entries,
+You've used 4 entries,
             1876 wiz_defined-function locations,
-            503 strings with 4177 characters,
-and the built_in function-call counts, 925 in all, are:
-= -- 96
-> -- 33
+            507 strings with 4285 characters,
+and the built_in function-call counts, 1195 in all, are:
+= -- 127
+> -- 37
 < -- 0
-+ -- 12
-- -- 9
-* -- 49
-:= -- 125
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 3
++ -- 14
+- -- 10
+* -- 60
+:= -- 157
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 63
-empty$ -- 73
-format.name$ -- 9
-if$ -- 238
+cite$ -- 4
+duplicate$ -- 84
+empty$ -- 97
+format.name$ -- 10
+if$ -- 311
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 3
-pop$ -- 9
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 15
+num.names$ -- 4
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 58
+skip$ -- 77
 stack$ -- 0
-substring$ -- 36
-swap$ -- 39
+substring$ -- 48
+swap$ -- 52
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 32
-(There were 3 warnings)
+while$ -- 8
+width$ -- 5
+write$ -- 42
