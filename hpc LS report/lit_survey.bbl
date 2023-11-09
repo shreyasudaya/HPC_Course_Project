@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{KOTYRA2021104741}
+B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
+  parallel implementations of flow accumulation algorithms for multicore
+  architectures,'' {\em Computers \& Geosciences}, vol.~151, p.~104741, 2021.
+
+\bibitem{DEJONG2022105083}
+K.~{de Jong}, D.~Panja, D.~Karssenberg, and M.~{van Kreveld}, ``Scalability and
+  composability of flow accumulation algorithms based on asynchronous
+  many-tasks,'' {\em Computers \& Geosciences}, vol.~162, p.~105083, 2022.
+
+\bibitem{KOTYRA2023105728}
+B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
+  longest flow paths in flow direction grids,'' {\em Environmental Modelling \&
+  Software}, vol.~167, p.~105728, 2023.
+
+\end{thebibliography}

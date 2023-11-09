@@ -1,0 +1,42 @@
+
+@article{DEJONG2022105083,
+	title = {Scalability and composability of flow accumulation algorithms based on asynchronous many-tasks},
+	journal = {Computers & Geosciences},
+	volume = {162},
+	pages = {105083},
+	year = {2022},
+	issn = {0098-3004},
+	doi = {https://doi.org/10.1016/j.cageo.2022.105083},
+	url = {https://www.sciencedirect.com/science/article/pii/S0098300422000462},
+	author = {Kor {de Jong} and Debabrata Panja and Derek Karssenberg and Marc {van Kreveld}},
+	keywords = {Modelling framework, Flow accumulation, High-performance computing, Asynchronous many-tasks, HPX, LUE},
+	abstract = {Models simulating the state of the biological and physical environment can be built using frameworks that contain pre-developed data structures and operations. To achieve good model performance it is important that individual modelling operations perform and scale well. Flow accumulation operations that support the use of criteria for selecting how much material flows downstream are an important part in several Earth surface simulation models. For these operations, no algorithms exist that perform, scale, and compose well. The objective of this study is to develop these algorithms, and evaluate their performance, scalability, and composability. We base our algorithms on the asynchronous many-task approach for parallel and concurrent computations, which avoids the use of synchronization points and supports composability of modelling operations. The relative strong and weak scaling efficiencies when scaling a flow accumulation operation over six CPU cores in a NUMA node are 83% and 84% respectively. The relative strong and weak scaling efficiencies when scaling a case-study model over four cluster nodes are 73% and 84%. Our algorithms are composable: the latency of executing two flow accumulation operations combined is lower than the sum of their individual latencies.}
+}
+
+@article{KOTYRA2023105728,
+	title = {Fast parallel algorithms for finding the longest flow paths in flow direction grids},
+	journal = {Environmental Modelling & Software},
+	volume = {167},
+	pages = {105728},
+	year = {2023},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2023.105728},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815223001147},
+	author = {Bartłomiej Kotyra and Łukasz Chabudziński},
+	keywords = {Longest flow path, GIS, Hydrology, Parallel algorithms, High-performance computing, OpenMP},
+	abstract = {In hydrological modeling, the longest flow path is an important feature used to characterize a catchment. Many existing GIS platforms offer dedicated software tools for its identification and delineation, generally implementing methods based on searching through the flow direction data. Unfortunately, currently available algorithms for this task often turn out to be inefficient, especially when working with modern large datasets. Moreover, existing methods often rely on incorrect assumptions or perform calculations in a way that can lead to precision issues. In this work, new parallel algorithms were developed, tested and presented. Measurements show that two of the newly proposed implementations are able to identify the longest flow paths in significantly less time compared with other existing methods.}
+}
+
+@article{KOTYRA2021104741,
+	title = {High-performance parallel implementations of flow accumulation algorithms for multicore architectures},
+	journal = {Computers & Geosciences},
+	volume = {151},
+	pages = {104741},
+	year = {2021},
+	issn = {0098-3004},
+	doi = {https://doi.org/10.1016/j.cageo.2021.104741},
+	url = {https://www.sciencedirect.com/science/article/pii/S0098300421000492},
+	author = {Bartłomiej Kotyra and Łukasz Chabudziński and Przemysław Stpiczyński},
+	keywords = {Flow accumulation, Parallel algorithms, OpenMP, Multicore processors, Manycore architectures, GIS},
+	abstract = {The calculation of flow accumulation is one of the tasks in digital terrain analysis that is not easy to parallelize. The aim of this work was to develop new, faster ways to calculate flow accumulation and achieve shorter execution times than popular software tools for this purpose. We prepared six implementations of algorithms based on both top-down and bottom-up approaches and compared their performance using 118 different data sets (including 59 subcatchments and 59 full frames) of various sizes but the same area and resolution. Our results clearly show that the parallel top-down algorithm (without the use of OpenMP tasks) is the most suitable implementation for flow accumulation calculations of all we have tested. The mean and median execution times of this algorithm are the shortest in all cases studied. The implementation is characterized by high speedups. The execution times of the parallel top-down implementation are two orders of magnitude shorter compared to the Flow Accumulation tool from ArcGIS Desktop. This is important, considering the performance of popular GIS platforms, where it takes hours to perform the same kind of operations with the use of similar equipment.}
+}

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: lit_survey.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: reference.bib
+Warning--I didn't find a database entry for "9246553"
+Warning--I didn't find a database entry for "7123563"
+Warning--I didn't find a database entry for "ashton2017debugging"
+You've used 3 entries,
+            1876 wiz_defined-function locations,
+            503 strings with 4177 characters,
+and the built_in function-call counts, 925 in all, are:
+= -- 96
+> -- 33
+< -- 0
++ -- 12
+- -- 9
+* -- 49
+:= -- 125
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 63
+empty$ -- 73
+format.name$ -- 9
+if$ -- 238
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 3
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 36
+swap$ -- 39
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 4
+write$ -- 32
+(There were 3 warnings)

@@ -1,0 +1,102 @@
+\documentclass[journal, a4paper]{IEEEtran}
+\usepackage{graphicx,color,amssymb,amsmath,framed,clrscode,amsthm,  epstopdf, epsfig, enumerate, url}
+\usepackage{balance}
+\usepackage{cite}
+%	\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%\usepackage[dvisvgm, usenames, dvipsnames]{color}
+
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+%\usepackage{cite}
+\usepackage[font=scriptsize]{caption}
+\usepackage[font=scriptsize]{subcaption}
+%\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{csquotes}
+\usepackage{paralist}
+%\usepackage{multicol}
+%\usepackage{lineno} 
+\usepackage[switch]{lineno}
+%\usepackage{flushend}
+
+
+
+\usepackage{xcolor}
+
+
+\pagestyle{empty}
+%\usepackage{algorithm, algorithmic}
+%\usepackage{algpseudocode}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+%\setcounter{AlgoLine}{29}
+
+\begin{document}
+	
+	\title{Analysis of Parallelized Memory Algorithms in High Performance Computing}
+	
+	%	\title{Energy Harvesting}
+	%	\author{Prathyusha M R, JRF CSE Dept}
+	%	\date{July 2022}
+	
+	
+	
+	% make the title area
+	\maketitle
+	
+	% As a general rule, do not put math, special symbols or citations
+	% in the abstract or keywords.
+%	\begin{abstract}
+%		In recent years, the Internet of Things (IoT) has grown exponentially as more and more items are connected to the internet. The development of the IoT has been facilitated by the confluence of numerous technologies, including ubiquitous computing, affordable sensors, embedded systems, and machine learning. Energy is a crucial resource for powering IoT devices, with batteries being a significant energy source. However, battery maintenance has become a major limitation. Harvesting energy from the ambient environment is one of the solutions to overcome this limitation. Consequently, batteryless energy-harvesting IoT devices (also called EH-IoTs) are exploring the market to autonomously power the devices. This study examines a detailed state-of-the-art about the IoT from the first IoT products to recent applications. First, the fundamentals of IoT architecture and its characteristics are explained, then IoT connectivity and related technologies are discussed. Various energy sources for IoT systems are explored. Major emphasis is given to energy harvesting schemes over battery-powered IoT systems. Next, a set of energy harvesting techniques suggested recently are analyzed. Finally, we examine various IoT applications, challenges, and potential future research directions.
+		
+		
+%	\end{abstract}
+	
+	% Note that keywords are not normally used for peerreview papers.
+	\begin{IEEEkeywords}
+		Internet of Things; IoT Technologies; IoT Applications; Energy Sources for IoT; IoT Challenges.
+	\end{IEEEkeywords}
+	
+	
+	
+	
+	
+	
+	
+	% page as needed:
+	% \ifCLASSOPTIONpeerreview
+	% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+	% \fi
+	%
+	% For peerreview papers, this IEEEtran command inserts a page break and
+	% creates the second title. It will be ignored for other modes.
+	\IEEEpeerreviewmaketitle
+	
+	
+	
+	
+	\maketitle
+	
+	\thispagestyle{empty}
+	\section{Introduction}
+	
+
+	\section{Literature Survey} 
+	\label{sec: ls}
+	
+	Kotyra \textit{et al.} \cite{KOTYRA2021104741} developed a faster method for calculating flow accumulation, resulting in shorter execution times. They discussed two approaches in parallelizing flow accumulation algorithms: the bottom-up approach and the top-down approach. The study compared six flow accumulation algorithms in sequential, parallel, and task-based implementations, using 118 different data sets. The top-down algorithm was found to be the fastest, with an average execution time of less than 30 seconds. The parallel top-down implementation was the most suitable for flow accumulation calculations. The task-based top-down implementation was less efficient, with an average processing time of 21.1\% longer for subcatchments and 32.7\% longer for rectangular frames. The algorithm's linear time complexity was measured in various settings, including frame 58 and frame 17 with 240 threads per core. The results showed a strong relationship between the number of cores used and the speedup compared to the sequential version, indicating that increasing the number of cores up to 60 still reduces the average computation time.
+
+	Jong \textit{et al.} \cite{DEJONG2022105083} parallelized and distributed the set of flow accumulation algorithms to determine how the material flows downstream. They used the asynchronous many-task (AMT) approach for parallel and concurrent computations, avoiding synchronization points and promoting composability of modelling operations. The AMT-based algorithms were evaluated for performance, scalability, and composability. It is observed that they can efficiently use additional hardware and perform well when combined with other operations. However, further research is needed to optimize the algorithms for specific hardware architectures and evaluate their performance on larger datasets. The limitation is that the performance of the algorithms was evaluated on a limited set of datasets and that further research is needed to analyze the impact of different hardware architectures, programming languages, flow direction algorithms, and scheduling strategies.
+	
+	Kotyra \textit{et al.} \cite{KOTYRA2023105728} designed seven fast raster-based algorithms for finding the longest flow paths in flow direction grids using a linear time complexity approach. The algorithms were evaluated using eight large datasets, generated using a hydrological model, and compared with existing GIS software. The algorithms achieved significant speedups, up to 30 times faster on Windows and 17 times faster on Ubuntu, depending on the dataset and algorithm used. The authors concluded that their approach was effective in achieving fast and accurate results for finding the longest flow paths in flow direction grids. However, they noted that their approach is based on raster data and assumes a steady-state flow regime, which may not be applicable to unsteady flow conditions. Future research should explore the development of algorithms based on more complex models and the scalability and portability of their algorithms to other platforms and architectures.
+	
+	
+
+
+
+	\bibliographystyle{ieeetr}
+	\bibliography{reference}
+
+\end{document}
