@@ -107,8 +107,14 @@
 	
 	Cho \textit{et al.} \cite{CHO2020104774} suggested longest flow path algorithm which compute few rasters that reduce computational time and improves efficiency. The algorithm is based on depth-first search and breadth-first search, and using equations derived from Hack's law to estimate the longest flow length. The algorithm also employs a branching strategy to eliminate inferior neighbor cells and speed up traversal. The suggested method is evaluated through benchmark experiments conducted in Georgia and Texas, comparing the performance of the algorithm with the Arc Hydro Longest Flow Path tool for ArcGIS Pro. The results showed that the algorithm's performance is affected by disk type and memory size, with solid-state drives and larger memory sizes resulting in faster computation times. The authors conclude that the proposed algorithm is a valuable addition to environmental modelling and software. One limitation is that the experiments were conducted on a limited set of data from two states in the United States, and the results may not be generalizable to other regions or datasets. 
 
-
-
+	Stojanovic \textit{stojanovic2020accelerating} suggested accelerating the flow distribution phase using MPI on a cluster. Two different MPI implementations were proposedand the approach that overlaps process computing and communication achieves the best results. The speedup using MPI is significant compared to sequential execution. While these are effective, other methods are not considered and neither are other libraries such as OpenMP or CUDA.
+	
+	Dunning \textit{10.1007/978-3-030-60939-9_16} did a quantitative study on the caches for memory divergent workloads simulated by gpgpu-sim. Increasing the size of the L1 data cache can improve the spatial locality, while increasing for L2 improves temporal localiy. However, this was only done on NVIDIA architectures and did not consider other performance bottlenecks besides caches such as memory bandwidth.
+	
+	Kotyra et al. \textit{KOTYRA2023105613} proposes a fast watershed delineation algorithm for GPU. The algorithm outperformed traditional GIS software packages in terms of speed and efficiency. This is highly parallelizable. However, this may not be suitable for all types of GIS related problems.
+	
+	\section{Proposed Methodology}
+	We want to create a new memory flow accumulation algorithm with 
 	\bibliographystyle{ieeetr}
 	\bibliography{reference}
 
