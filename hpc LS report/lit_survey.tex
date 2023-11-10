@@ -55,9 +55,9 @@
 %	\end{abstract}
 	
 	% Note that keywords are not normally used for peerreview papers.
-	\begin{IEEEkeywords}
-		Internet of Things; IoT Technologies; IoT Applications; Energy Sources for IoT; IoT Challenges.
-	\end{IEEEkeywords}
+%	\begin{IEEEkeywords}
+	%	Internet of Things; IoT Technologies; IoT Applications; Energy Sources for IoT; IoT Challenges.
+%	\end{IEEEkeywords}
 	
 	
 	
@@ -81,8 +81,21 @@
 	
 	\thispagestyle{empty}
 	\section{Introduction}
-	
 
+	Remote sensing technologies have led to an increase in geospatial data collection and resolution, necessitating more efficient computational algorithms for processing big GIS data. This data is crucial for hydrological, topographic analysis, environmental modeling, and Earth surface simulation. These models aid in understanding complex environmental interactions, facilitating informed decision-making and policy formulation. Several algorithms are developed to support computational task in environmental modeling. However, as data size increases, it becomes impractical to calculate this parameter on a single computer that is using serial algorithm \cite{CHO2023105771,KOTYRA2023105728}.
+	
+	Researchers in geospatial data processing have explored parallel algorithms to improve computational efficiency. Parallel programming allows high-performance applications to utilize modern parallel hardware, including shared-memory architectures like multicores and NUMA of multicores, and distributed-memory architectures like clusters. The complexity of hardware has increased with out-of-order computing capabilities, memory hierarchies, and smart network interface cards used as co-processors for networking tasks \cite{LOFF2021743}.
+	
+	Parallel algorithms are used to improve computational efficiency by breaking down complex problems into manageable tasks that can be executed simultaneously using multiple processors. Techniques include OpenMP, MPI, GPGPU, and Asynchronous Many-Tasks. OpenMP is a widely used framework for parallel programming. It provides directives for shared-memory parallelism, enabling developers to create efficient and scalable parallel algorithms \cite{KOTYRA2023105728}.
+	
+	OpenMP is the standard application programming interface for
+	shared memory parallel computing. By providing a set of compiler directives, runtime library functions, and environment variables, it makes the process of parallelizing code easier. The splitting of work among several threads, with each thread executing a portion of the code concurrently, is the fundamental idea behind OpenMP. Coordinated access to shared memory allows threads to work together effectively. This framework is especially useful for making the most of the parallel capabilities of contemporary multi-core processors, which improves the efficiency of algorithms and applications in a variety of fields \cite{chapman2007using}.
+	
+	The flow accumulation algorithm is a crucial tool in hydrology and GIS for understanding surface water movement. It calculates flow accumulation in a rasterized topographical model, determining the total upstream contributing area to each cell in a digital elevation model. This method helps identify primary flow paths within a watershed and is essential for flood prediction, watershed management, and terrain analysis. Its sophisticated variations and adaptations continually refine our understanding of surface water behavior in diverse terrains \cite{CHO2023105771,KOTYRA2023105728}.
+	
+	However, parallelization of flow accumulation tasks remains challenging due to spatial dependency and global computation. There is a need to reduce memory requirements for processing large datasets on a single computer.
+	
+	
 	\section{Literature Survey} 
 	\label{sec: ls}
 	

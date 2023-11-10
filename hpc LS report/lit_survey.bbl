@@ -1,5 +1,26 @@
 \begin{thebibliography}{1}
 
+\bibitem{CHO2023105771}
+H.~Cho, ``Memory-efficient flow accumulation using a look-around approach and
+  its openmp parallelization,'' {\em Environmental Modelling \& Software},
+  vol.~167, p.~105771, 2023.
+
+\bibitem{KOTYRA2023105728}
+B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
+  longest flow paths in flow direction grids,'' {\em Environmental Modelling \&
+  Software}, vol.~167, p.~105728, 2023.
+
+\bibitem{LOFF2021743}
+J.~Löff, D.~Griebler, G.~Mencagli, G.~Araujo, M.~Torquati, M.~Danelutto, and
+  L.~G. Fernandes, ``The nas parallel benchmarks for evaluating c++ parallel
+  programming frameworks on shared-memory architectures,'' {\em Future
+  Generation Computer Systems}, vol.~125, pp.~743--757, 2021.
+
+\bibitem{chapman2007using}
+B.~Chapman, G.~Jost, and R.~Van Der~Pas, {\em Using OpenMP: portable shared
+  memory parallel programming}.
+\newblock MIT press, 2007.
+
 \bibitem{KOTYRA2021104741}
 B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
   parallel implementations of flow accumulation algorithms for multicore
@@ -9,11 +30,6 @@ B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
 K.~{de Jong}, D.~Panja, D.~Karssenberg, and M.~{van Kreveld}, ``Scalability and
   composability of flow accumulation algorithms based on asynchronous
   many-tasks,'' {\em Computers \& Geosciences}, vol.~162, p.~105083, 2022.
-
-\bibitem{KOTYRA2023105728}
-B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
-  longest flow paths in flow direction grids,'' {\em Environmental Modelling \&
-  Software}, vol.~167, p.~105728, 2023.
 
 \bibitem{CHO2020104774}
 H.~Cho, ``A recursive algorithm for calculating the longest flow path and its

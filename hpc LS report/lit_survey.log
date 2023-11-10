@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.11)  9 NOV 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.11)  10 NOV 2023 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,28 +582,28 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: No \author given.
 
-(lit_survey.bbl) [1{C:/Users/prath/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex
-.map}
+[1{C:/Users/prath/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
+
+]
+(lit_survey.bbl) [2
 
 ] (lit_survey.aux) ) 
 Here is how much of TeX's memory you used:
- 9478 strings out of 475385
- 163775 string characters out of 2776907
- 527226 words of memory out of 3000000
- 30730 multiletter control sequences out of 15000+600000
- 498684 words of font info for 76 fonts, out of 8000000 for 9000
+ 9480 strings out of 475385
+ 163816 string characters out of 2776907
+ 528235 words of memory out of 3000000
+ 30734 multiletter control sequences out of 15000+600000
+ 496481 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,5n,63p,1308b,177s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
 ps/base/8r.enc}<C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmbi8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on lit_survey.pdf (1 page, 59692 bytes).
+mes/utmr8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on lit_survey.pdf (2 pages, 44042 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
