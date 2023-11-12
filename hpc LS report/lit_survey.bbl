@@ -21,6 +21,11 @@ B.~Chapman, G.~Jost, and R.~Van Der~Pas, {\em Using OpenMP: portable shared
   memory parallel programming}.
 \newblock MIT press, 2007.
 
+\bibitem{Zhou2019}
+G.~Zhou, H.~Wei, and S.~Fu, ``A fast and simple algorithm for calculating flow
+  accumulation matrices from raster digital elevation,'' {\em Frontiers of
+  Earth Science}, vol.~13, pp.~317--326, 2019.
+
 \bibitem{KOTYRA2021104741}
 B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
   parallel implementations of flow accumulation algorithms for multicore

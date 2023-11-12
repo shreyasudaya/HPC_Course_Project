@@ -5,44 +5,50 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: reference.bib
-You've used 11 entries,
+I was expecting a `,' or a `}'---line 313 of file reference.bib
+ :  
+ :  abstract = {Calculating the flow accumulation matrix is an essential step for many hydrological and topographical analyses. This study gives an overview of the existing algorithms for flow accumulation calculations for single-flow direction matrices. A fast and simple algorithm for calculating flow accumulation matrices is proposed in this study. The algorithm identifies three types of cells in a flow direction matrix: source cells, intersection cells, and interior cells. It traverses all source cells and traces the downstream interior cells of each source cell until an intersection cell is encountered. An intersection cell is treated as an interior cell when its last drainage path is traced and the tracing continues with its downstream cells. Experiments are conducted on thirty datasets with a resolution of 3 m. Compared with the existing algorithms for flow accumulation calculation, the proposed algorithm is easy to implement, runs much faster than existing algorithms, and generally requires less memory space.}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 12 entries,
             1876 wiz_defined-function locations,
-            549 strings with 5746 characters,
-and the built_in function-call counts, 3361 in all, are:
-= -- 352
-> -- 112
+            558 strings with 5955 characters,
+and the built_in function-call counts, 3701 in all, are:
+= -- 389
+> -- 123
 < -- 0
-+ -- 42
-- -- 31
-* -- 189
-:= -- 438
-add.period$ -- 12
-call.type$ -- 11
-change.case$ -- 10
++ -- 46
+- -- 34
+* -- 213
+:= -- 483
+add.period$ -- 13
+call.type$ -- 12
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 217
-empty$ -- 289
-format.name$ -- 31
-if$ -- 867
+cite$ -- 12
+duplicate$ -- 234
+empty$ -- 319
+format.name$ -- 34
+if$ -- 951
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 12
-newline$ -- 37
-num.names$ -- 11
-pop$ -- 35
+int.to.str$ -- 12
+missing$ -- 13
+newline$ -- 40
+num.names$ -- 12
+pop$ -- 37
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 188
+skip$ -- 202
 stack$ -- 0
-substring$ -- 178
-swap$ -- 125
+substring$ -- 210
+swap$ -- 134
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 25
-width$ -- 13
-write$ -- 113
+while$ -- 29
+width$ -- 14
+write$ -- 123
+(There was 1 error message)
