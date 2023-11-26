@@ -1,0 +1,233 @@
+\documentclass[]{beamer}
+% Class options include: notes, notesonly, handout, trans,
+%                        hidesubsections, shadesubsections,
+%                        inrow, blue, red, grey, brown
+
+% Theme for beamer presentation.
+\usepackage{beamerthemesplit} 
+% Other themes include: beamerthemebars, beamerthemelined, 
+%                       beamerthemetree, beamerthemetreebars  
+\usepackage{cite}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{comment}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{csquotes}
+\usepackage{graphicx,color,amssymb,amsmath,framed,clrscode,amsthm,  epstopdf, epsfig, enumerate, url}
+\usepackage[font=scriptsize]{caption}
+\usepackage[font=scriptsize]{subcaption}
+\usepackage{float}
+
+\usepackage{algpseudocode}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{mathtools}
+\setbeamertemplate{caption}[numbered] 
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage[list=true,listformat=simple]{subcaption}
+\title{Analysis of Parallelized Memory Algorithms in High Performance Computing}    
+\author{Prathyusha M R (223CS500)\\ Shreyas Udaya (211CS152)\\ Group 09}
+
+
+\titlegraphic{
+	\centering
+	%\includegraphics[width=2cm]{./fig/nitk.jpeg}
+	
+	
+	
+}
+
+\institute{Department of Computer Science and Engineering \\ National Institute Of Technology Karnataka Surathkal 575025}      % Enter your institute name between curly braces
+\date{November 26, 2023}                    % Enter the date or \today between curly braces
+
+\begin{document}
+	
+	% Creates title page of slide show using above information
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	%\note{Talk for 30 minutes} % Add notes to yourself that will be displayed when
+	% typeset with the notes or notesonly class options
+	
+	
+	
+	\section{}
+	
+	\begin{frame}
+		\frametitle{Overview}   % Insert frame title between curly braces
+		
+		\begin{itemize}
+			\item Introduction
+			\item OpenMP
+			\item Literature Survey
+			\item Literature Survey Summary Table
+			\item Limitation
+			\item Problem statement
+			\item Approach
+			\item References
+		\end{itemize}
+	\end{frame}
+
+	
+	
+	
+	
+	\begin{frame}
+		\frametitle{Introduction}
+		\begin{itemize}	
+			\item Remote sensing technologies have increased geospatial data collection and resolution, which requires efficient computational algorithms to process big geographic information systems (GIS) data.
+			
+			\item  Several algorithms are developed	to support computational tasks in environmental modeling. However, with the increase in data size, calculating parameters on a single computer is not practical using serial algorithms.
+			
+			\item However, parallelization of flow accumulation tasks remains challenging due to spatial dependency and global computation.
+			
+		
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{OpenMP}
+		
+		\begin{itemize}
+			\item Parallel algorithms are used to improve computational efficiency by breaking down complex problems into manageable tasks that can be executed simultaneously using multiple processors.
+			
+			\item OpenMP is the API standard for parallel computing using shared memory. It provides directives that enable developers to create efficient and scalable parallel algorithms.
+			
+			\item In OpenMP, the program is shared among several threads, where each thread executes a portion of the code concurrently with the coordinated access to shared memory. It improves the efficiency of algorithms and applications in various fields
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Literature Survey}
+		
+		\begin{itemize}
+			\item The flow accumulation algorithm is a crucial tool in hydrology and GIS for understanding	surface water movement. This method helps identify primary flow paths within a watershed and is essential for flood prediction,	watershed management, and terrain analysis.
+			
+			\item In existing literature, different flow accumulation algorithms are suggested to achieve fast and accurate result to calculate longest flow path and in determining how material flows. 
+			
+			\item The existing research are summarized in a table including various approaches, evaluation methodologies, results, and the challenges.
+		\end{itemize}
+		
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Literature Survey Summary Table}
+		
+		\begin{table}[]
+			\tiny
+			\begin{tabular}{ | p{0.1cm} | p{1.6cm} | p{0.5cm} | p{2cm} | p{2.3cm} |  p{2.3cm} | }
+				
+				\hline
+				\textbf{SI No.} &  \textbf{Title} & \textbf{Authors} & \textbf{Approach} & \textbf{Results} & \textbf{Observation}\\
+				\hline
+				1     & High-performance parallel implementations of flow accumulation algorithms for multicore architectures & Kotyra \textit{et al.} \cite{KOTYRA2021104741}& Two main approaches are discussed in o parallelize flow accumulation algorithms: the bottom-up approach and the top-down approach.  & The result inferred that the top-down algorithm was fastest, with an average execution time of less than 30 seconds. & Compared to sequential version, the results showed a high correlation between the number of cores employed and the speedup. \\
+				\hline
+				2     & Scalability and composability of flow accumulation algorithms based on asynchronous many-tasks & Jong \textit{et al.} \cite{DEJONG2022105083} & The authors  developed flow accumulation algorithms to determine how the material flows downstream. & The AMT-based algorithms for flow accumulation operations perform well in terms of scalability and composability .  & The algorithm function well when paired with other operations and utilize additional hardware efficiently. \\
+				\hline
+				3     & Fast parallel algorithms for finding the longest flow paths in flow direction grids & Kotyra \textit{et al.} \cite{KOTYRA2023105728} & Seven fast raster-based algorithms to determine the longest flow paths in flow direction grids using a linear time complexity approach. & The algorithms obtained significant speedups of up to 30 times quicker on Windows and 17 times faster on Ubuntu. & The suggested algorithm performed well in achieving fast and accurate result in determining longest flow pathways in flow direction grids. \\
+				\hline
+				4     & A recursive algorithm for calculating the longest flow path and its iterative implementation & Cho \textit{et al.} \cite{CHO2020104774} & The longest flow path algorithm that computes a small number of rasters to enhance efficiency and decrease computation time  & The algorithm's performance is affected by disk type and memory size, with solid-state drives and larger memory sizes resulting in faster computation times.  & In order to speedup traversal and eliminate inferior neighbor cells, the algorithm additionally uses branching technique. \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{frame}
+
+	
+
+		\begin{frame}
+		\frametitle{Literature Survey Summary Table Continued ...}
+		
+		\begin{table}[]
+			\tiny
+			\begin{tabular}{| p{0.1cm} | p{1.6cm} | p{0.5cm} | p{2cm} | p{2.3cm} |  p{2.3cm} | }
+				
+				\hline
+				\textbf{SI No.} &  \textbf{Title} & \textbf{Authors} & \textbf{Approach} & \textbf{Results} & \textbf{Observation}\\
+				\hline
+			
+				5     & Identifying challenges and opportunities of in-memory computing on large HPC systems &  Huang \textit{et al.} \cite{HUANG2022106} & The author presented comprehensive study of in-memory computing.\newline{}They discussed portability, robustness, usability, and performance of software & The results suggested that in-memory computing offers much higher scalability and performance than the \newline{}traditional post-processing. & Most of the commits were towards performance maintenance, suggesting it has a significant role towards computation. \\
+				\hline
+				6     & High-performance watershed delineation algorithm for GPU using CUDA and OpenMP & Kotyra \textit{et al.} \cite{KOTYRA2023105613}& The author proposed a fast watershed delineation algorithm for GPU. that uses OpenMP and CUDA. &  The results showed that the algorithm outperformed traditional GIS software packages in terms of speed and efficiency.  & The algorithm's performance is affected by the choice of hardware and software platforms.  \\
+				\hline
+				7     & Accelerating Multiple Flow Accumulation Algorithm Using MPI on a Cluster of Computers &  Stojanovic \textit{et al.} \cite{stojanovic2020accelerating} & The author suggested accelerating the flow distribution phase using MPI on a cluster. &  The experimental evaluation is conducted on several large DEM datasets and varying numbers of computers in the cluster. & The approach  overlaps process computing and communication achieves the best results. \\
+				\hline
+				8     & A Quantitative Study of Locality in GPU Caches for Memory-Divergent Workloads & Lal \textit{et al.} \cite{10.1007/978-3-030-60939-9_16}& The author  presented a quantitative analysis on the caches for memory divergent workloads simulated by gpgpu-sim. & Higher inter-warp hits (46\textbackslash{}\%) at the L1 cache for memory-divergent workloads compared to the state-of-the-art. & Data over-fetch wastes around 50\textbackslash{}\% of cache capacity and other limited resources. \\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{frame}
+
+
+
+
+	\begin{frame}
+		\frametitle{Limitation}
+		Some of the limitation in the existing literature includes:
+		\begin{itemize}
+		
+			\item The flow accumulation algorithms suggested in \cite{KOTYRA2021104741, DEJONG2022105083, KOTYRA2023105728, HUANG2022106, KOTYRA2023105613, stojanovic2020accelerating} has been parallelized using OpenMP to support computational tasks in environmental modeling. But the weighted flow  accumulation algorithm suggested in \cite{CHO2020104774} does not support parallelization.
+			
+			\item The study in \cite{stojanovic2020accelerating} does not cover other parallel and distributed computing methods and technologies that can be used for geospatial data processing and analysis.
+			
+			\item The algorithm suggested in \cite{KOTYRA2023105613} may not be suitable for all types of GIS-related problems. Also, the performance of the algorithm in \cite{DEJONG2022105083, CHO2020104774} was assessed on a limited set of datasets. 
+			
+			\item The approach in \cite{KOTYRA2023105728} might not be applicable unsteady flow conditions since it is based on raster data and a steady-state flow assumption.
+			
+			
+			
+			
+			
+			
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Problem statement}
+		
+		
+		To parallelize the weighted flow accumulation algorithm to calculate the longest flow path using OpenMP and analyze its performance.
+		
+		
+		
+		
+		%Currently the algorithm cited in 4th is not parallelized using openmp. unlike the memory efficient flow accumulation. This algorithm is very important as it is used for weighted flow accumulation. Our proposal is to parallize this implementation using openmp and analyze it's performance compared to the normal algorithm given the cited paper.
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Approach}
+		
+		\begin{itemize}
+			\item The flow accumulation algorithm presented in \cite{CHO2023105771} supports parallel computation using OpenMP. The source code can be found in \cite{r.flowaccumulation}.
+			
+			\item However, the algorithm used for calculating weighted flow accumulation and longest flow path \cite{CHO2020104774} does not support parallelization. The source code can be found in \cite{r.accumulate}.
+			
+			\item In this work, we propose to parallelize the weighted flow accumulation algorithm 
+		\end{itemize}
+		
+		%Currently only the algorithm for normal flow accumulation has been parallelized using OpenMp. The source code for the said algorithm(Memory Efficient Flow Accumulation) can be found in the below link.https://github.com/OSGeo/grass-addons/tree/grass8/src/raster/r.flowaccumulation
+		
+		%Another algorithm is used for calculating weighted flow accumulation and longest flow path. This is cited in sl no. 4 and does not support parallelization. https://github.com/OSGeo/grass-addons/tree/grass8/src/raster/r.accumulate
+	\end{frame}
+
+	
+	
+	
+	\begin{frame}[allowframebreaks]
+		\frametitle{Reference}
+		\bibliographystyle{ieeetr}
+		\bibliography{reference}
+	\end{frame}
+	
+	\begin{frame}{}
+		\centering \Large
+		\emph{THANK YOU}
+	\end{frame}
+\end{document}

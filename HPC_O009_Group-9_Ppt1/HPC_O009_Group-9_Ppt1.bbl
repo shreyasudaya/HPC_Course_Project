@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{KOTYRA2021104741}
+B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
+  parallel implementations of flow accumulation algorithms for multicore
+  architectures,'' {\em Computers and Geosciences}, vol.~151, p.~104741, 2021.
+
+\bibitem{DEJONG2022105083}
+K.~{de Jong}, D.~Panja, D.~Karssenberg, and M.~{van Kreveld}, ``Scalability and
+  composability of flow accumulation algorithms based on asynchronous
+  many-tasks,'' {\em Computers and Geosciences}, vol.~162, p.~105083, 2022.
+
+\bibitem{KOTYRA2023105728}
+B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
+  longest flow paths in flow direction grids,'' {\em Environmental Modelling
+  and Software}, vol.~167, p.~105728, 2023.
+
+\bibitem{CHO2020104774}
+H.~Cho, ``A recursive algorithm for calculating the longest flow path and its
+  iterative implementation,'' {\em Environmental Modelling and Software},
+  vol.~131, p.~104774, 2020.
+
+\bibitem{HUANG2022106}
+D.~Huang, Z.~Qin, Q.~Liu, N.~Podhorszki, and S.~Klasky, ``Identifying
+  challenges and opportunities of in-memory computing on large hpc systems,''
+  {\em Journal of Parallel and Distributed Computing}, vol.~164, pp.~106--122,
+  2022.
+
+\bibitem{KOTYRA2023105613}
+B.~Kotyra, ``High-performance watershed delineation algorithm for gpu using
+  cuda and openmp,'' {\em Environmental Modelling and Software}, vol.~160,
+  p.~105613, 2023.
+
+\bibitem{stojanovic2020accelerating}
+N.~Stojanovic and D.~Stojanovic, ``Accelerating multiple flow accumulation
+  algorithm using mpi on a cluster of computers,'' {\em Studies in Informatics
+  and Control}, vol.~29, no.~3, pp.~307--316, 2020.
+
+\bibitem{10.1007/978-3-030-60939-9_16}
+S.~Lal and B.~Juurlink, ``A quantitative study of locality in gpu caches,'' in
+  {\em Embedded Computer Systems: Architectures, Modeling, and Simulation: 20th
+  International Conference, SAMOS 2020, Samos, Greece, July 5–9, 2020,
+  Proceedings}, (Berlin, Heidelberg), p.~228–242, Springer-Verlag, 2020.
+
+\bibitem{CHO2023105771}
+H.~Cho, ``Memory-efficient flow accumulation using a look-around approach and
+  its openmp parallelization,'' {\em Environmental Modelling and Software},
+  vol.~167, p.~105771, 2023.
+
+\bibitem{r.flowaccumulation}
+H.~Cho, ``Grass gis 8.3 addons manual pages - r.flowaccumulation.''
+
+\bibitem{r.accumulate}
+H.~Cho, ``Grass gis 8.3 addons manual pages - r.accumulate.''
+
+\end{thebibliography}
