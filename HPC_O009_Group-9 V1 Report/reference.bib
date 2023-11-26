@@ -1,0 +1,160 @@
+
+@article{DEJONG2022105083,
+	title = {Scalability and composability of flow accumulation algorithms based on asynchronous many-tasks},
+	journal = {Computers & Geosciences},
+	volume = {162},
+	pages = {105083},
+	year = {2022},
+	issn = {0098-3004},
+	doi = {https://doi.org/10.1016/j.cageo.2022.105083},
+	url = {https://www.sciencedirect.com/science/article/pii/S0098300422000462},
+	author = {Kor {de Jong} and Debabrata Panja and Derek Karssenberg and Marc {van Kreveld}},
+	keywords = {Modelling framework, Flow accumulation, High-performance computing, Asynchronous many-tasks, HPX, LUE},
+	abstract = {Models simulating the state of the biological and physical environment can be built using frameworks that contain pre-developed data structures and operations. To achieve good model performance it is important that individual modelling operations perform and scale well. Flow accumulation operations that support the use of criteria for selecting how much material flows downstream are an important part in several Earth surface simulation models. For these operations, no algorithms exist that perform, scale, and compose well. The objective of this study is to develop these algorithms, and evaluate their performance, scalability, and composability. We base our algorithms on the asynchronous many-task approach for parallel and concurrent computations, which avoids the use of synchronization points and supports composability of modelling operations. The relative strong and weak scaling efficiencies when scaling a flow accumulation operation over six CPU cores in a NUMA node are 83% and 84% respectively. The relative strong and weak scaling efficiencies when scaling a case-study model over four cluster nodes are 73% and 84%. Our algorithms are composable: the latency of executing two flow accumulation operations combined is lower than the sum of their individual latencies.}
+}
+
+@article{KOTYRA2023105728,
+	title = {Fast parallel algorithms for finding the longest flow paths in flow direction grids},
+	journal = {Environmental Modelling & Software},
+	volume = {167},
+	pages = {105728},
+	year = {2023},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2023.105728},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815223001147},
+	author = {Bartłomiej Kotyra and Łukasz Chabudziński},
+	keywords = {Longest flow path, GIS, Hydrology, Parallel algorithms, High-performance computing, OpenMP},
+	abstract = {In hydrological modeling, the longest flow path is an important feature used to characterize a catchment. Many existing GIS platforms offer dedicated software tools for its identification and delineation, generally implementing methods based on searching through the flow direction data. Unfortunately, currently available algorithms for this task often turn out to be inefficient, especially when working with modern large datasets. Moreover, existing methods often rely on incorrect assumptions or perform calculations in a way that can lead to precision issues. In this work, new parallel algorithms were developed, tested and presented. Measurements show that two of the newly proposed implementations are able to identify the longest flow paths in significantly less time compared with other existing methods.}
+}
+
+@article{KOTYRA2021104741,
+	title = {High-performance parallel implementations of flow accumulation algorithms for multicore architectures},
+	journal = {Computers & Geosciences},
+	volume = {151},
+	pages = {104741},
+	year = {2021},
+	issn = {0098-3004},
+	doi = {https://doi.org/10.1016/j.cageo.2021.104741},
+	url = {https://www.sciencedirect.com/science/article/pii/S0098300421000492},
+	author = {Bartłomiej Kotyra and Łukasz Chabudziński and Przemysław Stpiczyński},
+	keywords = {Flow accumulation, Parallel algorithms, OpenMP, Multicore processors, Manycore architectures, GIS},
+	abstract = {The calculation of flow accumulation is one of the tasks in digital terrain analysis that is not easy to parallelize. The aim of this work was to develop new, faster ways to calculate flow accumulation and achieve shorter execution times than popular software tools for this purpose. We prepared six implementations of algorithms based on both top-down and bottom-up approaches and compared their performance using 118 different data sets (including 59 subcatchments and 59 full frames) of various sizes but the same area and resolution. Our results clearly show that the parallel top-down algorithm (without the use of OpenMP tasks) is the most suitable implementation for flow accumulation calculations of all we have tested. The mean and median execution times of this algorithm are the shortest in all cases studied. The implementation is characterized by high speedups. The execution times of the parallel top-down implementation are two orders of magnitude shorter compared to the Flow Accumulation tool from ArcGIS Desktop. This is important, considering the performance of popular GIS platforms, where it takes hours to perform the same kind of operations with the use of similar equipment.}
+}
+
+@article{CHO2020104774,
+	title = {A recursive algorithm for calculating the longest flow path and its iterative implementation},
+	journal = {Environmental Modelling & Software},
+	volume = {131},
+	pages = {104774},
+	year = {2020},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2020.104774},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815220305508},
+	author = {Huidae Cho},
+	keywords = {Longest flow path, Watershed, Hydrology, Open source, GIS, GRASS GIS},
+	abstract = {The longest flow path is widely used for studying hydrology. Traditionally, both or either of upstream and downstream flow length rasters are required to calculate the longest flow path. When processing multiple subwatersheds, this approach requires separate calculations of the downstream flow length raster for all the subwatersheds. However, raster computation involves a lot of disk input/output and can be slow. By defining the longest flow path recursively and introducing a branching strategy based on Hack's law, this study proposes a new longest flow path algorithm that computes as few rasters as possible to reduce computational time and improve efficiency. To avoid stack overflows by excessive recursion, its iterative counterpart algorithm was also proposed. The proposed algorithms were implemented as a GRASS GIS module. Benchmark experiments proved that the new module outperforms an existing tool for a commercial GIS.}
+}
+
+@article{LOFF2021743,
+	title = {The NAS Parallel Benchmarks for evaluating C++ parallel programming frameworks on shared-memory architectures},
+	journal = {Future Generation Computer Systems},
+	volume = {125},
+	pages = {743-757},
+	year = {2021},
+	issn = {0167-739X},
+	doi = {https://doi.org/10.1016/j.future.2021.07.021},
+	url = {https://www.sciencedirect.com/science/article/pii/S0167739X21002831},
+	author = {Júnior Löff and Dalvan Griebler and Gabriele Mencagli and Gabriell Araujo and Massimo Torquati and Marco Danelutto and Luiz Gustavo Fernandes},
+	keywords = {NAS Parallel Benchmarks, Parallel programming, Multicore architectures, Performance evaluation},
+	abstract = {The NAS Parallel Benchmarks (NPB), originally implemented mostly in Fortran, is a consolidated suite containing several benchmarks extracted from Computational Fluid Dynamics (CFD) models. The benchmark suite has important characteristics such as intensive memory communications, complex data dependencies, different memory access patterns, and hardware components/sub-systems overload. Parallel programming APIs, libraries, and frameworks that are written in C++ as well as new optimizations and parallel processing techniques can benefit if NPB is made fully available in this programming language. In this paper we present NPB-CPP, a fully C++ translated version of NPB consisting of all the NPB kernels and pseudo-applications developed using OpenMP, Intel TBB, and FastFlow parallel frameworks for multicores. The design of NPB-CPP leverages the Structured Parallel Programming methodology (essentially based on parallel design patterns). We show the structure of each benchmark application in terms of composition of few patterns (notably Map and MapReduce constructs) provided by the selected C++ frameworks. The experimental evaluation shows the accuracy of NPB-CPP with respect to the original NPB source code. Furthermore, we carefully evaluate the parallel performance on three multi-core systems (Intel, IBM Power, and AMD) with different C++ compilers (gcc, icc, and clang) by discussing the performance differences in order to give to the researchers useful insights to choose the best parallel programming framework for a given type of problem.}
+}
+
+
+@article{CHO2023105771,
+	title = {Memory-efficient flow accumulation using a look-around approach and its OpenMP parallelization},
+	journal = {Environmental Modelling & Software},
+	volume = {167},
+	pages = {105771},
+	year = {2023},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2023.105771},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815223001573},
+	author = {Huidae Cho},
+	keywords = {Flow accumulation, Watershed, Hydrology, GIS, Parallel computing, OpenMP},
+	abstract = {This study proposes the Memory-Efficient Flow Accumulation (MEFA) algorithm using a “look-around” approach. In a shared-memory model such as the one provided by OpenMP, it is important to reduce expensive shared memory writes for better multi-threaded performance. The new proposed algorithm reduces the amount of memory allocation and write operations on shared data by eliminating the need for intermediate read-write matrices and writing to output cells only once. This pattern of reduced read-write memory usage was applied to the existing source code of a benchmark algorithm with minimum changes to show its performance impacts. The new approach was efficient in improving the compute time by reducing memory requirements. The proposed algorithm performed 45% and 19% better in compute time than its OpenMP and MPI benchmark algorithms, respectively, using less memory.}
+}
+
+@book{chapman2007using,
+	title={Using OpenMP: portable shared memory parallel programming},
+	author={Chapman, Barbara and Jost, Gabriele and Van Der Pas, Ruud},
+	year={2007},
+	publisher={MIT press}
+}
+
+@article{KOTYRA2023105613,
+	title = {High-performance watershed delineation algorithm for GPU using CUDA and OpenMP},
+	journal = {Environmental Modelling & Software},
+	volume = {160},
+	pages = {105613},
+	year = {2023},
+	issn = {1364-8152},
+	doi = {https://doi.org/10.1016/j.envsoft.2022.105613},
+	url = {https://www.sciencedirect.com/science/article/pii/S1364815222003139},
+	author = {Bartłomiej Kotyra},
+	keywords = {Watershed delineation, GIS, Parallel algorithms, GPU, CUDA, OpenMP},
+	abstract = {Watershed delineation is one of the fundamental tasks in hydrological studies. Tools for extracting watersheds from digital elevation models and flow direction rasters are commonly implemented in GIS software packages. However, the performance of available techniques and algorithms often turns out to be far from sufficient, especially when working with large datasets. While modern hardware offers high computing performance through massive parallelism, there is still a need for algorithms that can effectively use these capabilities. This paper proposes an algorithm for rapid watershed delineation directly from flow direction rasters, using the possibilities offered by modern GPU devices. Performance measurements show a significant reduction in execution time compared to other parallel solutions proposed for this task in the literature. Moreover, this implementation makes it possible to delineate multiple watersheds from the same dataset simultaneously, each having one or more outlet cells, with virtually no additional computational cost.}
+}
+
+@article{HUANG2022106,
+	title = {Identifying challenges and opportunities of in-memory computing on large HPC systems},
+	journal = {Journal of Parallel and Distributed Computing},
+	volume = {164},
+	pages = {106-122},
+	year = {2022},
+	issn = {0743-7315},
+	doi = {https://doi.org/10.1016/j.jpdc.2022.02.002},
+	url = {https://www.sciencedirect.com/science/article/pii/S0743731522000387},
+	author = {Dan Huang and Zhenlu Qin and Qing Liu and Norbert Podhorszki and Scott Klasky},
+	keywords = {High-performance computing, Data analytics, Workflow, In-memory computing},
+	abstract = {With the increasing fidelity and resolution enabled by high-performance computing systems, simulation-based scientific discovery is able to model and understand microscopic physical phenomena at a level that was not possible in the past. A grand challenge that the HPC community facing is how to maintain the large amounts of analysis data generated from simulations. In-memory computing, among others, is recognized to be a viable path forward and has experienced tremendous success in the past decade. Nevertheless, there has been a lack of a complete study and understanding of in-memory computing as a whole on HPC systems. Given the enlarging disparity between compute and HPC storage I/O, it is urgent for the HPC community to assess the state of in-memory computing and understand the challenges and opportunities. This paper presents a comprehensive study of in-memory computing with regard to its software evolution, performance, usability, robustness, and portability. In particular, we conduct an indepth analysis on the evolution of in-memory computing based upon more than 3,000 commits, and use realistic workflows for two scientific workloads, i.e., LAMMPS and Laplace to quantitatively assess state-of-the-art in-memory computing libraries, including DataSpaces, DIMES, Flexpath, Decaf and SENSEI on two leading supercomputers, Titan and Cori. Our studies not only illustrate the performance and scalability, but also reveal the key aspects that are of interest to library developers and users, including usability, robustness, portability, potential design defects, etc.}
+}
+
+@article{stojanovic2020accelerating,
+	title={Accelerating multiple flow accumulation algorithm using MPI on a cluster of computers},
+	author={Stojanovic, Natalija and Stojanovic, Dragan},
+	journal={Studies in Informatics and Control},
+	volume={29},
+	number={3},
+	pages={307--316},
+	year={2020}
+}
+
+@inproceedings{10.1007/978-3-030-60939-9_16,
+	author = {Lal, Sohan and Juurlink, Ben},
+	title = {A Quantitative Study of Locality in GPU Caches},
+	year = {2020},
+	isbn = {978-3-030-60938-2},
+	publisher = {Springer-Verlag},
+	address = {Berlin, Heidelberg},
+	url = {https://doi.org/10.1007/978-3-030-60939-9_16},
+	doi = {10.1007/978-3-030-60939-9_16},
+	abstract = {Traditionally, GPUs only had programmer-managed caches. The advent of hardware-managed caches accelerated the use of GPUs for general-purpose computing. However, as GPU caches are shared by thousands of threads, they are usually a victim of contention and can suffer from thrashing and high miss rate, in particular, for memory-divergent workloads. As data locality is crucial for performance, there have been several efforts focusing on exploiting data locality in GPUs. However, there is a lack of quantitative analysis of data locality and data reuse in GPUs. In this paper, we quantitatively study the data locality and its limits in GPUs. We observe that data locality is much higher than exploited by current GPUs. We show that, on the one hand, the low spatial utilization of cache lines justifies the use of demand-fetched caches. On the other hand, the much higher actual spatial utilization of cache lines shows the lost spatial locality and presents opportunities for further optimizing the cache design.},
+	booktitle = {Embedded Computer Systems: Architectures, Modeling, and Simulation: 20th International Conference, SAMOS 2020, Samos, Greece, July 5–9, 2020, Proceedings},
+	pages = {228–242},
+	numpages = {15},
+	keywords = {Memory divergence, GPU caches, Data locality},
+	location = {Samos, Greece}
+}
+
+@article{Zhou2019,
+	title = {A fast and simple algorithm for calculating flow accumulation matrices from raster digital elevation},
+	author={Zhou, Guiyun and Wei, Hongqiang and Fu, Suhua},
+	journal={Frontiers of Earth Science},
+	volume={13},
+	pages={317--326},
+	year={2019},
+	publisher={Springer}
+	abstract = {Calculating the flow accumulation matrix is an essential step for many hydrological and topographical analyses. This study gives an overview of the existing algorithms for flow accumulation calculations for single-flow direction matrices. A fast and simple algorithm for calculating flow accumulation matrices is proposed in this study. The algorithm identifies three types of cells in a flow direction matrix: source cells, intersection cells, and interior cells. It traverses all source cells and traces the downstream interior cells of each source cell until an intersection cell is encountered. An intersection cell is treated as an interior cell when its last drainage path is traced and the tracing continues with its downstream cells. Experiments are conducted on thirty datasets with a resolution of 3 m. Compared with the existing algorithms for flow accumulation calculation, the proposed algorithm is easy to implement, runs much faster than existing algorithms, and generally requires less memory space.}
+	url = {https://doi.org/10.1007/s11707-018-0725-9},
+	doi = {10.1007/s11707-018-0725-9}
+}
