@@ -2,12 +2,12 @@
 
 \bibitem{CHO2023105771}
 H.~Cho, ``Memory-efficient flow accumulation using a look-around approach and
-  its openmp parallelization,'' {\em Environmental Modelling & Software},
+  its openmp parallelization,'' {\em Environmental Modelling \& Software},
   vol.~167, p.~105771, 2023.
 
 \bibitem{KOTYRA2023105728}
 B.~Kotyra and Łukasz Chabudziński, ``Fast parallel algorithms for finding the
-  longest flow paths in flow direction grids,'' {\em Environmental Modelling &
+  longest flow paths in flow direction grids,'' {\em Environmental Modelling \&
   Software}, vol.~167, p.~105728, 2023.
 
 \bibitem{LOFF2021743}
@@ -29,16 +29,16 @@ G.~Zhou, H.~Wei, and S.~Fu, ``A fast and simple algorithm for calculating flow
 \bibitem{KOTYRA2021104741}
 B.~Kotyra, Łukasz Chabudziński, and P.~Stpiczyński, ``High-performance
   parallel implementations of flow accumulation algorithms for multicore
-  architectures,'' {\em Computers & Geosciences}, vol.~151, p.~104741, 2021.
+  architectures,'' {\em Computers \& Geosciences}, vol.~151, p.~104741, 2021.
 
 \bibitem{DEJONG2022105083}
 K.~{de Jong}, D.~Panja, D.~Karssenberg, and M.~{van Kreveld}, ``Scalability and
   composability of flow accumulation algorithms based on asynchronous
-  many-tasks,'' {\em Computers & Geosciences}, vol.~162, p.~105083, 2022.
+  many-tasks,'' {\em Computers \& Geosciences}, vol.~162, p.~105083, 2022.
 
 \bibitem{CHO2020104774}
 H.~Cho, ``A recursive algorithm for calculating the longest flow path and its
-  iterative implementation,'' {\em Environmental Modelling & Software},
+  iterative implementation,'' {\em Environmental Modelling \& Software},
   vol.~131, p.~104774, 2020.
 
 \bibitem{stojanovic2020accelerating}
@@ -54,7 +54,7 @@ S.~Lal and B.~Juurlink, ``A quantitative study of locality in gpu caches,'' in
 
 \bibitem{KOTYRA2023105613}
 B.~Kotyra, ``High-performance watershed delineation algorithm for gpu using
-  cuda and openmp,'' {\em Environmental Modelling & Software}, vol.~160,
+  cuda and openmp,'' {\em Environmental Modelling \& Software}, vol.~160,
   p.~105613, 2023.
 
 \bibitem{HUANG2022106}
@@ -62,5 +62,16 @@ D.~Huang, Z.~Qin, Q.~Liu, N.~Podhorszki, and S.~Klasky, ``Identifying
   challenges and opportunities of in-memory computing on large hpc systems,''
   {\em Journal of Parallel and Distributed Computing}, vol.~164, pp.~106--122,
   2022.
+
+\bibitem{NETELER2012124}
+M.~Neteler, M.~H. Bowman, M.~Landa, and M.~Metz, ``Grass gis: A multi-purpose
+  open source gis,'' {\em Environmental Modelling \& Software}, vol.~31,
+  pp.~124--130, 2012.
+
+\bibitem{r.flowaccumulation}
+H.~Cho, ``Grass gis 8.3 addons manual pages - r.flowaccumulation.''
+
+\bibitem{r.accumulate}
+H.~Cho, ``Grass gis 8.3 addons manual pages - r.accumulate.''
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.11)  28 NOV 2023 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.11)  30 NOV 2023 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,67 +603,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]\OT1/ptm/m/n/8 High-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 performance
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 par-al-lel im-ple-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 men-ta-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 of flow
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 ac-cu-mu-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 al-go-rithms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 for mul-ti-core
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []\OT1/ptm/m/n/8 Kotyra
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]\OT1/ptm/m/n/8 Two main
+\OT1/ptm/m/n/8 are dis-cussed in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 ap-proaches are
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 dis-cussed in o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 par-al-lelize flow
+\OT1/ptm/m/n/8 o par-al-lelize flow
  []
 
 
@@ -673,82 +623,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 al-go-rithms:
+\OT1/ptm/m/n/8 al-go-rithms: the
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 the bottom-up
+\OT1/ptm/m/n/8 bottom-up ap-proach
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 ap-proach and
+\OT1/ptm/m/n/8 and the top-down
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 the top-down
- []
-
-
-Underfull \hbox (badness 3792) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 ods in se-quen-tial,
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 par-al-lel, and task-
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 based im-ple-men-ta-
+[]\OT1/ptm/m/n/8 Using 118 dis-tinct
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 al-go-rithm was
+\OT1/ptm/m/n/8 com-pared six flow
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 fastest, with an
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 av-er-age ex-e-cu-tion
+\OT1/ptm/m/n/8 ac-cu-mu-la-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]\OT1/ptm/m/n/8 Compared
+\OT1/ptm/m/n/8 meth-ods in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 to se-quen-tial
+\OT1/ptm/m/n/8 se-quen-tial, par-al-lel,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 ver-sion, the
+\OT1/ptm/m/n/8 and task-based
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 134--134
+[]\OT1/ptm/m/n/8 The re-sult in-ferred
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 high cor-re-la-tion
+[]\OT1/ptm/m/n/8 Compared to
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 be-tween the
+\OT1/ptm/m/n/8 se-quen-tial ver-sion,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-\OT1/ptm/m/n/8 em-ployed and
+\OT1/ptm/m/n/8 the re-sults showed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/8 a high cor-re-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/8 of cores em-ployed
  []
 
 
@@ -777,83 +722,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 com-pos-abil-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 of flow
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 ac-cu-mu-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 al-go-rithms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 based on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 asyn-chronous
- []
-
-
 Underfull \hbox (badness 6252) in paragraph at lines 136--136
 []\OT1/ptm/m/n/8 Jong \OT1/ptm/m/it/8 et
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 136--136
-[]\OT1/ptm/m/n/8 The au-thors de-
+Underfull \hbox (badness 6944) in paragraph at lines 136--136
+[]\OT1/ptm/m/n/8 The au-thors de-vel-
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 cu-mu-la-tion al-go-
+Underfull \hbox (badness 4303) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 oped flow ac-cu-mu-
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 rithms to de-ter-
+Underfull \hbox (badness 2334) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 la-tion al-go-rithms to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]\OT1/ptm/m/n/8 The al-go-rithm
+Underfull \hbox (badness 7631) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 de-ter-mine how the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 func-tion well
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 when paired
+Underfull \hbox (badness 2205) in paragraph at lines 136--136
+[]\OT1/ptm/m/n/8 The AMT-based al-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 with other
+[]\OT1/ptm/m/n/8 The AMT-based
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 op-er-a-tions and
+\OT1/ptm/m/n/8 al-go-rithms for
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\OT1/ptm/m/n/8 hard-ware
+\OT1/ptm/m/n/8 flow ac-cu-mu-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 op-er-a-tions per-form
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 well in terms of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\OT1/ptm/m/n/8 scal-a-bil-ity and
  []
 
 
@@ -868,47 +793,37 @@ Underfull \hbox (badness 5578) in paragraph at lines 136--137
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]\OT1/ptm/m/n/8 Fast par-al-lel
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 al-go-rithms for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 find-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 longest flow
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 paths in flow
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []\OT1/ptm/m/n/8 Kotyra
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]\OT1/ptm/m/n/8 Seven fast raster-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \OT1/ptm/m/n/8 based al-go-rithms
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \OT1/ptm/m/n/8 to de-ter-mine the
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 which was gen-er-
+Underfull \hbox (badness 2547) in paragraph at lines 138--138
+\OT1/ptm/m/n/8 flow di-rec-tion grids
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 138--138
+\OT1/ptm/m/n/8 us-ing a lin-ear time
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 138--138
+[]\OT1/ptm/m/n/8 Eight large datasets
  []
 
 
@@ -918,22 +833,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 ob-tained
+\OT1/ptm/m/n/8 ob-tained sig-nif-i-cant
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 138--138
+\OT1/ptm/m/n/8 speedups of up to
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 sig-nif-i-cant
- []
-
-
-Underfull \hbox (badness 3354) in paragraph at lines 138--138
 \OT1/ptm/m/n/8 30 times quicker
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 \OT1/ptm/m/n/8 on Win-dows and
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 138--138
+\OT1/ptm/m/n/8 17 times faster on
  []
 
 
@@ -942,33 +862,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 al-go-rithm
+Underfull \hbox (badness 3428) in paragraph at lines 138--138
+\OT1/ptm/m/n/8 al-go-rithm per-formed
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 per-formed well
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 and ac-cu-rate
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 re-sult in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 de-ter-min-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-\OT1/ptm/m/n/8 longest flow
+\OT1/ptm/m/n/8 de-ter-min-ing longest
  []
 
 
@@ -1003,62 +903,12 @@ Underfull \hbox (badness 3000) in paragraph at lines 138--139
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[]\OT1/ptm/m/n/8 A re-cur-sive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 al-go-rithm for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 cal-cu-lat-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 the longest
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 flow path and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 its it-er-a-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/ptm/m/n/8 Cho \OT1/ptm/m/it/8 et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 path al-go-rithm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 that com-putes
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 a small num-ber
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 of rasters to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 and de-crease
+Underfull \hbox (badness 1546) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 al-go-rithm that com-
  []
 
 
@@ -1067,23 +917,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--140
  []
 
 
+Underfull \hbox (badness 1515) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 method is eval-u-ated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 through bench-mark
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \OT1/ptm/m/n/8 ex-per-i-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 con-ducted in
+Underfull \hbox (badness 4699) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 the per-for-mance of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 com-par-ing the
+Underfull \hbox (badness 8170) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 the al-go-rithm with
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 Arc hy-dro longest
+Underfull \hbox (badness 4872) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 flow path tool for
  []
 
 
@@ -1097,43 +957,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--140
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 af-fected by disk
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 and mem-ory size,
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 size, with solid-
+Underfull \hbox (badness 4927) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 and larger mem-ory
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 state drives and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 larger mem-ory
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 140--140
 \OT1/ptm/m/n/8 sizes re-sult-ing in
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[]\OT1/ptm/m/n/8 In or-der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 to speedup
+\OT1/ptm/m/n/8 faster com-pu-ta-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \OT1/ptm/m/n/8 traver-sal and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\OT1/ptm/m/n/8 elim-i-nate in-fe-rior
  []
 
 
@@ -1148,12 +998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--140
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 ad-di-tion-ally
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-\OT1/ptm/m/n/8 uses branch-ing
+\OT1/ptm/m/n/8 ad-di-tion-ally uses
  []
 
 
@@ -1168,36 +1013,6 @@ Underfull \hbox (badness 5460) in paragraph at lines 140--141
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\OT1/ptm/m/n/8 Identifying
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 chal-lenges and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 op-por-tu-ni-ties
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 of in-memory
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 com-put-ing on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 large HPC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\OT1/ptm/m/n/8 Huang
  []
 
@@ -1208,27 +1023,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\OT1/ptm/m/n/8 The au-thor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 pre-sented
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \OT1/ptm/m/n/8 com-pre-hen-sive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 study of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 in-memory
+Underfull \hbox (badness 1546) in paragraph at lines 143--143
+\OT1/ptm/m/n/8 study of in-memory
  []
 
 
@@ -1237,28 +1037,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 dis-cussed
+Underfull \hbox (badness 2865) in paragraph at lines 143--143
+\OT1/ptm/m/n/8 ro-bust-ness, us-abil-ity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 porta-bil-ity,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 ro-bust-ness,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 us-abil-ity, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 per-for-mance of
+Underfull \hbox (badness 2359) in paragraph at lines 143--143
+\OT1/ptm/m/n/8 and per-for-mance of
  []
 
 
@@ -1288,22 +1073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 eval-u-ate with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\OT1/ptm/m/n/8 The re-sults
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 sug-gested that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 in-memory
+\OT1/ptm/m/n/8 that in-memory
  []
 
 
@@ -1327,18 +1097,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 the tra-di-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\OT1/ptm/m/n/8 Most of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 com-mits
+Underfull \hbox (badness 2343) in paragraph at lines 143--143
+\OT1/ptm/m/n/8 the tra-di-tional post-
  []
 
 
@@ -1358,12 +1118,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 sug-gest-ing it
+\OT1/ptm/m/n/8 sug-gest-ing it has
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\OT1/ptm/m/n/8 role to-wards
+\OT1/ptm/m/n/8 a sig-nif-i-cant role
  []
 
 
@@ -1378,41 +1138,6 @@ Underfull \hbox (badness 1552) in paragraph at lines 143--144
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]\OT1/ptm/m/n/8 High-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 performance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 wa-ter-shed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 de-lin-eation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 al-go-rithm for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 GPU us-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 CUDA and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
 []\OT1/ptm/m/n/8 Kotyra
  []
 
@@ -1423,77 +1148,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]\OT1/ptm/m/n/8 The au-thor
+\OT1/ptm/m/n/8 a fast wa-ter-shed
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 145--145
+\OT1/ptm/m/n/8 for GPU. that uses
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 145--145
+\OT1/ptm/m/n/8 the pro-posed al-go-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 145--145
+\OT1/ptm/m/n/8 rithm us-ing sev-eral
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 145--145
+[]\OT1/ptm/m/n/8 The re-sults showed
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 pro-posed a
+\OT1/ptm/m/n/8 that the al-go-rithm
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 fast wa-ter-shed
+\OT1/ptm/m/n/8 out-per-formed
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 de-lin-eation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 al-go-rithm for
- []
-
-
-Underfull \hbox (badness 8075) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 GPU. that uses
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 OpenMP and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]\OT1/ptm/m/n/8 The au-thor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 eval-u-ated the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 us-ing sev-eral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 ex-per-i-ments on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 dif-fer-ent datasets
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 and hard-ware
- []
-
-
-Underfull \hbox (badness 7888) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 out-per-formed tra-
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 ware pack-ages in
+\OT1/ptm/m/n/8 tra-di-tional GIS
  []
 
 
@@ -1503,27 +1193,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 per-for-mance
+\OT1/ptm/m/n/8 per-for-mance is
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 is af-fected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 by the choice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 of hard-ware
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/ptm/m/n/8 and soft-ware
+\OT1/ptm/m/n/8 of hard-ware and
  []
 
 
@@ -1532,53 +1207,8 @@ Underfull \hbox (badness 4660) in paragraph at lines 145--146
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\OT1/ptm/m/n/8 Accelerating
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 Mul-ti-ple Flow
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 Ac-cu-mu-la-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 Al-go-rithm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 a Clus-ter of
- []
-
-
 Overfull \hbox (5.65097pt too wide) in paragraph at lines 147--147
 []\OT1/ptm/m/n/8 Stojanovic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\OT1/ptm/m/n/8 The au-thor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 sug-gested
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 ac-cel-er-at-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 flow dis-tri-bu-tion
  []
 
 
@@ -1592,88 +1222,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 con-ducted on
+Underfull \hbox (badness 2057) in paragraph at lines 147--147
+\OT1/ptm/m/n/8 large DEM datasets
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 sev-eral large
+Underfull \hbox (badness 2799) in paragraph at lines 147--147
+[]\OT1/ptm/m/n/8 The ap-proach over-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 com-put-ers in the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\OT1/ptm/m/n/8 The ap-proach
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 over-laps pro-cess
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 com-put-ing and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 com-mu-ni-ca-tion
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 achieves the best
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\OT1/ptm/m/n/8 Two dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 MPI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 im-ple-men-ta-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 were dis-cussed
- []
-
-
-Underfull \hbox (badness 6252) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 along with the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 anal-y-sis on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 ad-van-tages and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 chal-lenges of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/ptm/m/n/8 both par-al-lel
+Underfull \hbox (badness 7273) in paragraph at lines 147--147
+[]\OT1/ptm/m/n/8 Two dif-fer-ent MPI
  []
 
 
@@ -1697,113 +1257,28 @@ Underfull \hbox (badness 1924) in paragraph at lines 147--148
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 149--149
-[]\OT1/ptm/m/n/8 A Quan-ti-ta-tive
+Underfull \hbox (badness 4479) in paragraph at lines 149--149
+\OT1/ptm/m/n/8 a quan-ti-ta-tive anal-
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 149--149
+\OT1/ptm/m/n/8 y-sis on the caches
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 149--149
+\OT1/ptm/m/n/8 work-loads sim-u-lated
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 Study of
+[]\OT1/ptm/m/n/8 The eval-u-a-tion is
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 Lo-cal-ity in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 GPU Caches
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 for Memory-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 Divergent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]\OT1/ptm/m/n/8 The au-thor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 pre-sented a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 quan-ti-ta-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 anal-y-sis on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 the caches for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 work-loads
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 sim-u-lated by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]\OT1/ptm/m/n/8 The eval-u-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 is based on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 bench-marks run
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 on an NVIDIA
- []
-
-
-Underfull \hbox (badness 6893) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 GPU. The mpact
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 of pa-ram-e-ters like
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 block size and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 thread count on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 the al-go-rithm's
+\OT1/ptm/m/n/8 on the al-go-rithm's
  []
 
 
@@ -1812,28 +1287,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 149--149
-[]\OT1/ptm/m/n/8 Higher inter-warp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 hits (46%) at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 memory-divergent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 work-loads
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 com-pared to
+Underfull \hbox (badness 2564) in paragraph at lines 149--149
+\OT1/ptm/m/n/8 work-loads com-pared
  []
 
 
@@ -1842,23 +1297,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 wastes around
+Underfull \hbox (badness 2932) in paragraph at lines 149--149
+\OT1/ptm/m/n/8 wastes around 50%
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 50% of cache
+\OT1/ptm/m/n/8 of cache ca-pac-ity
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 ca-pac-ity and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OT1/ptm/m/n/8 other lim-ited
+\OT1/ptm/m/n/8 and other lim-ited
  []
 
 
@@ -1891,90 +1341,83 @@ Underfull \hbox (badness 2635) in paragraph at lines 149--150
 \OT1/ptm/m/n/8 and its in-abil-ity to
  []
 
-
-LaTeX Warning: Float too large for page by 54.99994pt on input line 152.
-
-(HPC_O009_Group-9.bbl
-! Misplaced alignment tab character &.
-l.5 ...elization,'' {\em Environmental Modelling &
-                                                   Software},
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.10 ...on grids,'' {\em Environmental Modelling &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 [2] [3]
-! Misplaced alignment tab character &.
-l.32   architectures,'' {\em Computers &
-                                         Geosciences}, vol.~151, p.~104741, ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-! Misplaced alignment tab character &.
-l.37   many-tasks,'' {\em Computers &
-                                      Geosciences}, vol.~162, p.~105083, 2022.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 190.
 
-! Misplaced alignment tab character &.
-l.41 ...entation,'' {\em Environmental Modelling &
-                                                   Software},
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+<./fig/Algorithm 4.jpg, id=14, 342.5598pt x 213.05196pt>
+File: ./fig/Algorithm 4.jpg Graphic file (type jpg)
+<use ./fig/Algorithm 4.jpg>
+Package pdftex.def Info: ./fig/Algorithm 4.jpg  used on input line 192.
+(pdftex.def)             Requested size: 258.0pt x 160.47125pt.
 
-! Misplaced alignment tab character &.
-l.57 ...d openmp,'' {\em Environmental Modelling &
-                                                   Software}, vol.~160,
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 192--193
+ [][] 
+ []
 
-) [4
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 197.
+
+<./fig/Algorithm 5.jpg, id=15, 356.86926pt x 268.41078pt>
+File: ./fig/Algorithm 5.jpg Graphic file (type jpg)
+<use ./fig/Algorithm 5.jpg>
+Package pdftex.def Info: ./fig/Algorithm 5.jpg  used on input line 199.
+(pdftex.def)             Requested size: 258.0pt x 194.05835pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 199--200
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 204.
+
+<./fig/Algorithm 6.jpg, id=16, 342.5598pt x 199.60974pt>
+File: ./fig/Algorithm 6.jpg Graphic file (type jpg)
+<use ./fig/Algorithm 6.jpg>
+Package pdftex.def Info: ./fig/Algorithm 6.jpg  used on input line 206.
+(pdftex.def)             Requested size: 258.0pt x 150.34654pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 206--207
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 211.
+
+<./fig/Algorithm 7.jpg, id=17, 371.03418pt x 380.71835pt>
+File: ./fig/Algorithm 7.jpg Graphic file (type jpg)
+<use ./fig/Algorithm 7.jpg>
+Package pdftex.def Info: ./fig/Algorithm 7.jpg  used on input line 213.
+(pdftex.def)             Requested size: 258.0pt x 264.735pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 213--214
+ [][] 
+ []
+
+(HPC_O009_Group-9.bbl [4] [5 <./fig/Algorithm 4.jpg> <./fig/Algorithm 5.jpg> <.
+/fig/Algorithm 6.jpg> <./fig/Algorithm 7.jpg>]) [6
 
 ] (HPC_O009_Group-9.aux) ) 
 Here is how much of TeX's memory you used:
- 9552 strings out of 475385
- 165239 string characters out of 2776907
- 552275 words of memory out of 3000000
- 30778 multiletter control sequences out of 15000+600000
- 502729 words of font info for 94 fonts, out of 8000000 for 9000
+ 9596 strings out of 475385
+ 166131 string characters out of 2776907
+ 548319 words of memory out of 3000000
+ 30814 multiletter control sequences out of 15000+600000
+ 504914 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,63p,1202b,279s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,10n,63p,1382b,385s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/e
 nc/dvips/base/8r.enc}<C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmb8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/prath/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on HPC_O009_Group-9.pdf (4 pages, 67294 bytes).
+Output written on HPC_O009_Group-9.pdf (6 pages, 2300692 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: HPC_O009_Group-9.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: reference.bib
+I was expecting a `,' or a `}'---line 313 of file reference.bib
+ :  
+ :  abstract = {Calculating the flow accumulation matrix is an essential step for many hydrological and topographical analyses. This study gives an overview of the existing algorithms for flow accumulation calculations for single-flow direction matrices. A fast and simple algorithm for calculating flow accumulation matrices is proposed in this study. The algorithm identifies three types of cells in a flow direction matrix: source cells, intersection cells, and interior cells. It traverses all source cells and traces the downstream interior cells of each source cell until an intersection cell is encountered. An intersection cell is treated as an interior cell when its last drainage path is traced and the tracing continues with its downstream cells. Experiments are conducted on thirty datasets with a resolution of 3 m. Compared with the existing algorithms for flow accumulation calculation, the proposed algorithm is easy to implement, runs much faster than existing algorithms, and generally requires less memory space.}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 15 entries,
+            1876 wiz_defined-function locations,
+            569 strings with 6250 characters,
+and the built_in function-call counts, 4272 in all, are:
+= -- 439
+> -- 145
+< -- 0
++ -- 55
+- -- 40
+* -- 244
+:= -- 560
+add.period$ -- 14
+call.type$ -- 15
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 259
+empty$ -- 385
+format.name$ -- 40
+if$ -- 1095
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 49
+num.names$ -- 15
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 232
+stack$ -- 0
+substring$ -- 238
+swap$ -- 143
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 34
+width$ -- 17
+write$ -- 145
+(There was 1 error message)
